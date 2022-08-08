@@ -19,3 +19,6 @@ iris.values
 #Pedimos un resumen de los datos del dataset
 iris.info()
 iris.describe(include='all')
+
+
+dataset = pd.read_csv('iris.csv')
